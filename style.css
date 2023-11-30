@@ -96,6 +96,8 @@ url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Regular.eot)
     .content {
         margin-left: 80px;
         margin-right: 80px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
     #title {
