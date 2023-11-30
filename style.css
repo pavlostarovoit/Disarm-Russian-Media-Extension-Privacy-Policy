@@ -1,0 +1,134 @@
+/*Text colors*/
+
+.color_text_primary-primary {
+    color: #2E2E2E;
+}
+
+.color_text_placeholder {
+    color: #777777;
+}
+
+
+/*Background colors*/
+
+.color_bg_decorations-background {
+    background-color: #F5F5F5;
+}
+
+.color_bg_decorations-foreground {
+    background-color: #FFFFFF;
+}
+
+
+/*Typography*/
+
+@font-face {
+    font-family: e-Ukraine-Light, sans-serif;
+    src: url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Light.woff) format('woff'), /* Modern Browsers */
+    url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Light.ttf) format('truetype'), /* Safari, Android, iOS */
+    url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Light.svg#svgFontName) format('svg'), /* Legacy iOS */
+    url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Light.eot); /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: e-Ukraine-Regular, sans-serif;
+    src: url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Regular.woff) format('woff'), /* Modern Browsers */
+url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Regular.ttf) format('truetype'), /* Safari, Android, iOS */
+url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Regular.svg#svgFontName) format('svg'), /* Legacy iOS */
+url(https://github.com/pavlostarovoit/test/raw/main/Fonts/e-Ukraine-Regular.eot); /* IE9 Compat Modes */
+}
+
+.text_H4Title {
+    font-family: "e-Ukraine-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text_H5Title {
+    font-family: "e-Ukraine-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text_H7Text, a {
+    font-family: "e-Ukraine-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.text_H7Subtext {
+    font-family: "e-Ukraine-Light", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+/*Layout*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 24px;
+    margin-block-end: 24px;
+    gap: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 1px 8px 0px rgba(42, 42, 42, 0.075);
+}
+
+@media screen and (min-width: 1053px) {
+    
+    .content {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    #title {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+
+
+
+ul {
+    padding-left: 20px;
+}
+
+
+p, ul {
+    max-width: 624px;
+    margin: 0px;
+}
+
+
+body {
+    margin: 0px;
+}
+
+
+/*Components*/
+
+a {
+    color: #0A64EB;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #777777;
+}
